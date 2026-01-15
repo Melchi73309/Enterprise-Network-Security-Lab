@@ -7,7 +7,6 @@ The lab focuses on **real-world network security controls** commonly used by Net
 
 The goal is to simulate how organizations **secure inter-office communication, protect access switches, enable secure device management, and monitor events centrally**.
 
----
 
 ## Network Architecture
 
@@ -31,7 +30,7 @@ The goal is to simulate how organizations **secure inter-office communication, p
 - Network: `192.168.12.0/24`
 - Used for routing traffic between Office 1 and Office 2
 
----
+
 
 ## Security Implementations
 
@@ -46,7 +45,7 @@ The goal is to simulate how organizations **secure inter-office communication, p
   - Office 2 users cannot access Office 1 network
   - Office 1 traffic remains unaffected
 
----
+
 
 ### Switch Port Security
 - **Applied On:** Office 1 Switch
@@ -58,7 +57,7 @@ The goal is to simulate how organizations **secure inter-office communication, p
   - Prevent unauthorized devices from connecting
   - Automatically lock port if a different device is plugged in
 
----
+
 
 ### Secure Device Management (SSH)
 - **Enabled On:** Office Router 1
@@ -70,7 +69,6 @@ The goal is to simulate how organizations **secure inter-office communication, p
   - Encrypt credentials and management traffic
   - Follow enterprise security best practices
 
----
 
 ### Centralized Logging (Syslog)
 - **Office 1 Router → Syslog Server:** `192.168.1.100`
@@ -84,7 +82,7 @@ The goal is to simulate how organizations **secure inter-office communication, p
   - Audit and incident investigation
   - Visibility across network devices
 
----
+
 
 ## Key Learning Outcomes
 - Understanding inter-office routing and traffic flow
@@ -94,7 +92,6 @@ The goal is to simulate how organizations **secure inter-office communication, p
 - Monitoring network activity using Syslog
 - Applying real-world enterprise security practices
 
----
 
 ## Technologies Used
 - Cisco Packet Tracer
@@ -106,6 +103,6 @@ The goal is to simulate how organizations **secure inter-office communication, p
 - Switch Port Security
 - Syslog Monitoring
 
----
+
 
 
